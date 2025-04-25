@@ -13,7 +13,7 @@ async function addSong() {
         popularity: document.querySelector("#popularity").value,
         genre: document.querySelector("#genre").value ? document.querySelector("#genre").value.split(",") : []
     }
-    const response = await fetch("https://full-stack-node-backend.glitch.me/api/songs",{
+    const response = await fetch("https://backend-apis-and-databases.glitch.me/api/songs",{
         method: "POST",
         headers:{
             "Content-Type" : "application/json"

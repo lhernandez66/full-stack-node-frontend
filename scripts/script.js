@@ -1,7 +1,7 @@
 // We are going to make an event listener.. it will trigger when the DOM is loaded
 addEventListener("DOMContentLoaded", async function () {
     //const response = await fetch("http://localhost:3000/api/songs");
-    const response = await fetch("https://full-stack-node-backend.glitch.me/api/songs");
+    const response = await fetch("https://backend-apis-and-databases.glitch.me/api/songs");
 
     const songs = await response.json();
 
